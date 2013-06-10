@@ -8,4 +8,4 @@ use Rack::Rewrite do
     return '/' + match[1].gsub("/","")
   }
 end
-run Rack::Directory.new('app')
+run Rack::Directory.new('/app')
