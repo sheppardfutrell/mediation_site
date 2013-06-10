@@ -9,4 +9,4 @@ require 'rack'
     #return '/' + match[1].gsub("/","")
   #}
 #end
-run Rack::Directory.new('/')
+run Rack::Directory.new('app')
